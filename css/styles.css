@@ -309,14 +309,14 @@ body {
 .logo-footer {
   margin-bottom: 20px;
 }
-.footer-link {
+.footer-address-list {
   margin-top: 20px;
 }
 .item-footer-link:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-foter {
+.address-footer {
   font-style: normal;
   color: var(--secondary-text-color-light);
 }
