@@ -11,6 +11,8 @@
   --background-btn: #f5f4fa;
   --background-footer: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --border-color-header: #ececec;
+  --boorder-color-card: #eeeeee;
 }
 
 h1,
@@ -66,7 +68,7 @@ body {
 .page-header {
   padding-top: 20px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-color-header);
 }
 .page-navigation {
   display: flex;
@@ -293,7 +295,7 @@ body {
   padding: 24px 20px 24px 20px;
   background: var(--background-basic);
   border-top: none;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--boorder-color-card);
 }
 
 /* ====/MAIN=============================================== */
