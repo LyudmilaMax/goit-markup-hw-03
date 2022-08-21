@@ -127,8 +127,7 @@ body {
 /* ====MAIN==== */
 .hero {
   background: var(--background-hero);
-  width: 1600px;
-  height: 600px;
+  padding: 200px 0px;
 }
 .hero-title {
   font-weight: 900;
@@ -138,8 +137,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color-light);
-  padding-top: 200px;
-  padding-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .modal-button {
   font-family: "Roboto", sans-serif;
@@ -168,8 +169,8 @@ body {
 }
 .menu-buttons {
   display: flex;
-  padding-top: 56px;
-  padding-bottom: 34px;
+
+  margin-bottom: 50px;
   justify-content: center;
   column-gap: 8px;
 }
@@ -234,9 +235,7 @@ body {
 
 .person-block {
   width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1632px;
+
   background: var(--background-basic);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -255,6 +254,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
   color: var(--secondary-text-color-dark);
 }
 .img-block {
@@ -281,6 +281,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
   color: var(--main-text-color-dark);
 }
 .open-cards {
@@ -289,13 +290,12 @@ body {
   color: var(--secondary-text-color-dark);
 }
 .card {
-  background: var(--background-basic);
-  border: 1px solid #eeeeee;
   padding: 24px 20px 24px 20px;
+  background: var(--background-basic);
+  border-top: none;
+  border: 1px solid #eeeeee;
 }
-.portfolio {
-  padding-bottom: 132px;
-}
+
 /* ====/MAIN=============================================== */
 /* ====FOOTER==== */
 .footer-studio,
@@ -306,11 +306,13 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.logo-footer {
+  margin-bottom: 20px;
+}
 .footer-link {
   margin-top: 20px;
 }
-.item-footer-link {
+.item-footer-link:not(:last-child) {
   margin-bottom: 9px;
 }
 
